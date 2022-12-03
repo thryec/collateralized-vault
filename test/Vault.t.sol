@@ -8,7 +8,6 @@ contract VaultTest is Test {
     Vault public vault;
 
     function setUp() public {
-        counter = new Counter();
-        counter.setNumber(0);
+        vault = new Vault();
     }
 }
