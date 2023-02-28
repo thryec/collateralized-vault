@@ -2,13 +2,7 @@
 pragma solidity ^0.8.13;
 
 contract Vault {
-    uint256 public number;
+    mapping(address => uint256) wethHoldings;
 
-    function setNumber(uint256 newNumber) public {
-        number = newNumber;
-    }
-
-    function increment() public {
-        number++;
-    }
+    function deposit(uint256 amount) public {}
 }
