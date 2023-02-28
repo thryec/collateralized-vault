@@ -23,6 +23,8 @@ Users can deposit an asset they own (collateral), to borrow a different asset th
 
 `repay()`
 
+`withdraw()`
+
 `liquidate()`
 
 `getPrice()`
